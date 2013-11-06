@@ -3,4 +3,4 @@ This app is built with Django.  Currently, there is no requirements file for pip
 
 ## Expected modules in the future
 * Django-CKEditor https://github.com/shaunsephton/django-ckeditor
-        I've wanted to learn something more about CKEditor ever since I lived through the nightmare of configuring and working with TinyMCE.  I'm hoping it's easier to work with.
+(I've wanted to learn something more about CKEditor ever since I lived through the nightmare of configuring and working with TinyMCE.  I'm hoping it's easier to work with.)
