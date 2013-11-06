@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ poll.question }}</h1>
+
+<ul class="results">
+{% for choice, percent in votePercents %}
+    <li>
+        {{ choice.choice_text }} -- {{ choice.votes }} 
+        vote{{ choice.votes|pluralize }} {{ percent }}%
+        <div class="votePercent" style="width: {{ percent }}%;"></div>
+    </li>
+{% endfor %}
+</ul>
+<p>This poll has been voted on {{ total }} times.</p>
+<a href="{% url 'polls:detail' poll.id %}">Vote again?</a>
+{% endblock %}

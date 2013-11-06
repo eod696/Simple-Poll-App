@@ -1,0 +1,24 @@
+body {
+    font: 12px arial;
+    background-color: #000;
+}
+
+div.container {
+    width: 925px;
+    margin: 0px auto;
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+div.votePercent {
+    height: 25px; 
+    background-color: #c00;
+}
+
+ul.results{
+    width: 885px;
+    background-color: #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
